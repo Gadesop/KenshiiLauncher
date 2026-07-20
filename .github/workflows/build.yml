@@ -17,9 +17,14 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+
+    - name: Install NDK
+      run: sdkmanager "ndk;26.3.11579264"
+
     - name: Find and Build APK
       run: |
-        # Find the gradlew file automatically
         GRADLEW=$(find . -name "gradlew" -type f | head -n 1)
         echo "Found gradlew at: $GRADLEW"
         GRADLE_DIR=$(dirname "$GRADLEW")
