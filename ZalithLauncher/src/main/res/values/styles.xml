@@ -12,6 +12,12 @@
         <item name="android:textSize">@dimen/_12ssp</item>
     </style>
 
+    <style name="KenifyTitleText" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/menu_bar_text</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowBackground">@drawable/dialog_background</item>
         <item name="android:scrollbarThumbHorizontal">@color/background_menu_element</item>

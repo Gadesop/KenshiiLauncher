@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Kenify Launcher -->
+    <string name="app_name">Kenify Launcher</string>
+    <string name="kenify_tagline">A modern launcher for Minecraft on Android</string>
     <string name="generic_open">Open</string>
     <string name="generic_close">Close</string>
     <string name="generic_return">Return</string>
