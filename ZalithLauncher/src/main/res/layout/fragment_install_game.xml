@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+    <!-- KENIFY UI INJECTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal">
+        
+        <Button
+            android:id="@+id/kenify_play_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play Kenify"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:background="@drawable/kenify_glass_bg"
+            android:layout_marginBottom="16dp"/>
+            
+        <Spinner
+            android:id="@+id/kenify_theme_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kenify_glass_bg"
+            android:padding="8dp"/>
+            
+    </LinearLayout>
+    <!-- END KENIFY UI -->
     <!-- KENIFY UI INJECTION -->
     <LinearLayout
         android:layout_width="match_parent"
