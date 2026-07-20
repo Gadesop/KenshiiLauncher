@@ -79,8 +79,8 @@
     <string name="version_beta">Phiên bản Beta</string>
     <string name="force_exit_confirm">Bạn có chắc chắn muốn tắt bằng cách ép buộc?</string>
     <string name="autoram_info_msg">Bộ nhớ đã được đặt là %d MB</string>
-    <string name="memory_warning_msg">Bộ nhớ hiện có (%d) thấp hơn bộ nhớ được phân bổ (%d), điều này có thể gây ra sự cố trò chơi, nếu trò chơi bị sự cố, vui lòng thay đổi cấu hình!</string>
-    <string name="address_memory_warning_msg">Không gian bộ nhớ trống hiện có (%d) thấp hơn bộ nhớ được phân bổ (%d), điều này sẽ gây ra sự cố, nếu trò chơi bị sự cố, vui lòng điều chỉnh phân bổ bộ nhớ.</string>
+    <string name="memory_warning_msg" formatted="false">Bộ nhớ hiện có (%d) thấp hơn bộ nhớ được phân bổ (%d), điều này có thể gây ra sự cố trò chơi, nếu trò chơi bị sự cố, vui lòng thay đổi cấu hình!</string>
+    <string name="address_memory_warning_msg" formatted="false">Không gian bộ nhớ trống hiện có (%d) thấp hơn bộ nhớ được phân bổ (%d), điều này sẽ gây ra sự cố, nếu trò chơi bị sự cố, vui lòng điều chỉnh phân bổ bộ nhớ.</string>
     <string name="notif_channel_name">Thông thường</string>
     <string name="lazy_service_default_title">Dịch vụ Tiếp tân %s</string>
     <string name="progresslayout_tasks_in_progress">%d nhiệm vụ đang diễn ra</string>
@@ -105,13 +105,13 @@
     <string name="notif_download_finished">Trò chơi đã sẵn sàng để khởi chạy</string>
     <string name="notif_download_finished_desc">Nhấn vào đây để khởi chạy!</string>
     <string name="notification_permission_dialog_title">Yêu cầu quyền</string>
-    <string name="notification_permission_dialog_text">%s cần quyền đăng thông báo để ngăn chặn việc dừng tải xuống tệp trò chơi khi bạn rời khỏi ứng dụng. Nếu không có quyền này, khi bạn đưa %s vào nền, Android có thể dừng tiến trình tải xuống của bạn</string>
+    <string name="notification_permission_dialog_text" formatted="false">%s cần quyền đăng thông báo để ngăn chặn việc dừng tải xuống tệp trò chơi khi bạn rời khỏi ứng dụng. Nếu không có quyền này, khi bạn đưa %s vào nền, Android có thể dừng tiến trình tải xuống của bạn</string>
     <string name="notification_permission_toast">Bạn có thể thay đổi quyết định bất cứ lúc nào bằng cách vào \"Cài đặt hệ thống\"</string>
     <string name="newdl_starting">Đang đọc siêu dữ liệu trò chơi…</string>
     <string name="newdl_downloading_metadata">Đang tải siêu dữ liệu trò chơi (%s)</string>
-    <string name="newdl_downloading_game_files">Đang tải tệp trò chơi… (%d/%d, %.2f MB)</string>
-    <string name="newdl_downloading_game_files_size">Đang tải tệp trò chơi… (%.2f/%.2f MB, %.2f MB/s)</string>
-    <string name="newdl_extracting_native_libraries">Đang giải nén thư viện gốc (%d/%d)</string>
+    <string name="newdl_downloading_game_files" formatted="false">Đang tải tệp trò chơi… (%d/%d, %.2f MB)</string>
+    <string name="newdl_downloading_game_files_size" formatted="false">Đang tải tệp trò chơi… (%.2f/%.2f MB, %.2f MB/s)</string>
+    <string name="newdl_extracting_native_libraries" formatted="false">Đang giải nén thư viện gốc (%d/%d)</string>
     <string name="log_view_button_scroll_off">Tự động cuộn: Tắt</string>
     <string name="log_view_button_scroll_on">Tự động cuộn: Bật</string>
     <string name="log_view_button_output_off">Đầu ra: Tắt</string>
@@ -127,7 +127,7 @@
     <string name="mod_failed_to_load_list">Không thể tải danh sách phiên bản!</string>
     <string name="mod_optifine_progress">Đang tải %s</string>
     <string name="mod_check_dialog_title">Báo cáo kiểm tra mod</string>
-    <string name="mod_check_progress_message">Đang kiểm tra mod (%d / %d)</string>
+    <string name="mod_check_progress_message" formatted="false">Đang kiểm tra mod (%d / %d)</string>
     <string name="mod_check_touch_controller">Phát hiện đã cài đặt mod Touch Controller (%s), launcher đã sẵn sàng kích hoạt proxy điều khiển để tương thích với mod.</string>
     <string name="mod_check_sodium_or_embeddium">Đã phát hiện mod Sodium hoặc Embeddium được cài đặt (%s). Trình khởi chạy sẽ vô hiệu hóa cảnh báo của mod này hoặc ngăn chặn nó cố tình gây lỗi trên thiết bị Android. Tuy nhiên, xin lưu ý rằng cộng đồng của mod đã tuyên bố rõ ràng rằng họ sẽ không còn chấp nhận bất kỳ vấn đề nào liên quan đến thiết bị Android. Do đó, nếu bạn gặp bất kỳ vấn đề nào khi sử dụng mod này, đừng báo cáo chúng lên cộng đồng của mod!</string>
     <string name="mod_check_physics">Mod vật lý hiện đang sử dụng (%s) chưa được vá (thay libPhysXJniBindings_64.so từ kiến trúc x86_64 sang arm64), sẽ bị sập khi khởi chạy.</string>
@@ -135,7 +135,7 @@
     <string name="mod_check_valkyrien_skies">Valkyrien Skies/Valkyrien Warfare (%s) không thể chạy trực tiếp ở chế độ chơi đơn. Bạn phải chạy nó trên máy chủ (có thể sử dụng Termux), otherwise trò chơi sẽ bị crash.</string>
     <string name="mod_check_yes_steve_model">Yes Steve Model (%s) 2.2.2–2.5.1 không thể chạy trên hệ điều hành Android.</string>
     <string name="mod_check_imblocker">IMBlocker/In-GameIME (%s) không tương thích với Android và sẽ khiến trò chơi bị treo khi khởi động.</string>
-    <string name="mod_check_replay_mod">ReplayMod (%s) yêu cầu FFmpeg để render video. Vui lòng cài đặt plugin FFmpeg riêng\n%s\n%s</string>
+    <string name="mod_check_replay_mod" formatted="false">ReplayMod (%s) yêu cầu FFmpeg để render video. Vui lòng cài đặt plugin FFmpeg riêng\n%s\n%s</string>
     <string name="mod_check_borderlesswindow">Borderless Window (%s) không tương thích với Android và sẽ khiến trò chơi bị treo khi khởi động.</string>
     <!-- Controls -->
     <string name="control_primary">Nhấp chuột trái</string>
@@ -255,7 +255,7 @@
     <!-- Permissions -->
     <string name="permissions_manage_external_storage">%s cần quyền quản lý tất cả các tệp trên thiết bị để sử dụng tính năng này bình thường, vui lòng bật quyền!</string>
     <string name="permissions_write_external_storage">%s yêu cầu quyền quản lý bộ nhớ. Nếu quyền này không được bật, có thể gây ra các vấn đề như tệp trò chơi không thể lưu hoặc giải nén đúng cách. Vui lòng cấp quyền để đảm bảo các chức năng hoạt động đúng.</string>
-    <string name="permissions_storage_for_renderer_config">Plugin renderer %s có thể có cài đặt. Nếu %s không có quyền lưu trữ, cài đặt sẽ không thể đọc. Hãy cấp quyền để hoạt động đúng.</string>
+    <string name="permissions_storage_for_renderer_config" formatted="false">Plugin renderer %s có thể có cài đặt. Nếu %s không có quyền lưu trữ, cài đặt sẽ không thể đọc. Hãy cấp quyền để hoạt động đúng.</string>
     <!-- Profiles Path -->
     <string name="profiles_path_title">Quản lý đường dẫn trò chơi</string>
     <string name="profiles_path_default">Đường dẫn mặc định</string>
@@ -337,7 +337,7 @@
     <string name="custom_mouse_added">Đã thiết lập thành công chuột ảo:</string>
     <string name="custom_mouse_default">Chuột ảo mặc định</string>
     <string name="custom_mouse_title">Tùy chỉnh chuột ảo</string>
-    <string name="custom_mouse_dialog">Bạn có thể thêm hình ảnh chuột trong (Cài đặt khởi động - %s - %s)</string>
+    <string name="custom_mouse_dialog" formatted="false">Bạn có thể thêm hình ảnh chuột trong (Cài đặt khởi động - %s - %s)</string>
     <string name="custom_mouse_desc">Mở giao diện quản lý chuột ảo, bạn có thể tự thêm các hình ảnh chuột ảo yêu thích của mình và sử dụng chúng</string>
     <string name="custom_mouse_message_default">Chuột ảo hiện đang chọn là chuột ảo mặc định, không hỗ trợ chia sẻ, đổi tên, xóa</string>
     <string name="custom_background_add">Thêm hình nền</string>
@@ -372,10 +372,10 @@
     <string name="file_multi_select_mode">Bật chế độ chọn nhiều</string>
     <string name="file_multi_select_mode_title">Chọn nhiều mục</string>
     <string name="file_multi_select_mode_message">Hiện tại đã chọn tổng cộng %d mục</string>
-    <string name="file_operation_file">Đang thao tác tệp… (%s / %s, %d)</string>
+    <string name="file_operation_file" formatted="false">Đang thao tác tệp… (%s / %s, %d)</string>
     <string name="file_jump_to_path">Nhảy đến đường dẫn</string>
     <string name="file_nothing">Không tìm thấy tệp nào cả!</string>
-    <string name="file_invalid_length">Tên quá dài! (Độ dài hiện tại: %d, Độ dài tối đa: %d)</string>
+    <string name="file_invalid_length" formatted="false">Tên quá dài! (Độ dài hiện tại: %d, Độ dài tối đa: %d)</string>
     <!-- Search View -->
     <string name="search_case_sensitive">Phân biệt chữ hoa chữ thường</string>
     <string name="search_only_show_results">Chỉ hiển thị kết quả tìm kiếm</string>
@@ -468,7 +468,7 @@
     <string name="setting_java_args_desc">Các tham số JVM bổ sung khi khởi động Minecraft, không khuyến khích sửa đổi nếu không có kiến thức, vì điều này có thể gây ra sự cố cho trò chơi</string>
     <string name="setting_java_memory_title">Phân bổ bộ nhớ</string>
     <string name="setting_java_memory_desc">Kiểm soát bộ nhớ được phân bổ cho Minecraft</string>
-    <string name="setting_java_memory_info">Thông tin bộ nhớ hiện tại: %s / %s, bộ nhớ trống: %s</string>
+    <string name="setting_java_memory_info" formatted="false">Thông tin bộ nhớ hiện tại: %s / %s, bộ nhớ trống: %s</string>
     <string name="setting_java_memory_exceeded">Không gian bộ nhớ được đặt hiện tại vượt quá khả năng sử dụng</string>
     <string name="setting_java_sandbox_title">Bật trình quản lý bảo mật sandbox</string>
     <string name="setting_java_sandbox_desc">Bật trình quản lý bảo mật sandbox khi thực thi tệp .jar</string>
@@ -575,7 +575,7 @@
     <string name="download_search_no_result">Không tìm thấy tài nguyên liên quan!</string>
     <string name="download_search_platform_not_supported">Nền tảng hiện tại không hỗ trợ tải xuống loại tài nguyên này hoặc bộ lọc loại này!</string>
     <string name="download_install_custom_name">Tên tệp tùy chỉnh</string>
-    <string name="download_install_download_file">Đang tải tệp tài nguyên (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
+    <string name="download_install_download_file" formatted="false">Đang tải tệp tài nguyên (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
     <string name="download_install_dependencies">%s có các mod phụ thuộc hoặc mod không tương thích sau</string>
     <string name="download_install_dependencies_tip">Vui lòng tải xuống các mod phụ thuộc cần thiết theo nhu cầu. Thiếu các mod phụ thuộc quan trọng hoặc cài đặt mod không tương thích có thể khiến trò chơi không thể chạy!</string>
     <string name="download_install_dependencies_required">Cần thiết</string>
@@ -590,11 +590,11 @@
     <!-- ModPack -->
     <string name="select_modpack_local_tip">Vui lòng chọn một tệp gói tích hợp được hỗ trợ bởi trình khởi chạy!</string>
     <string name="select_modpack_local_not_supported">Gói mod này không được hỗ trợ bởi trình khởi chạy! Trình khởi chạy chỉ hỗ trợ nhập gói mod ở định dạng Modrinth, CurseForge và MCBBS. Vui lòng kiểm tra xem gói mod của bạn có tuân thủ định dạng quy định không!</string>
-    <string name="select_modpack_local_installing_files">Đang cài đặt tệp trò chơi… (%d / %d)</string>
-    <string name="modpack_download_downloading_metadata">Đang tải dữ liệu meta của modpack (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
-    <string name="modpack_download_downloading_mods">Đang tải mod (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
-    <string name="modpack_download_downloading_mods_fc">Đang tải mod (số tệp đã tải: %d (%s), tổng số tệp: %d, tốc độ: %s/s)</string>
-    <string name="modpack_download_applying_overrides">Đang áp dụng ghi đè (%d/%d)</string>
+    <string name="select_modpack_local_installing_files" formatted="false">Đang cài đặt tệp trò chơi… (%d / %d)</string>
+    <string name="modpack_download_downloading_metadata" formatted="false">Đang tải dữ liệu meta của modpack (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
+    <string name="modpack_download_downloading_mods" formatted="false">Đang tải mod (%.2fMB / %.2fMB, tốc độ: %s/s)</string>
+    <string name="modpack_download_downloading_mods_fc" formatted="false">Đang tải mod (số tệp đã tải: %d (%s), tổng số tệp: %d, tốc độ: %s/s)</string>
+    <string name="modpack_download_applying_overrides" formatted="false">Đang áp dụng ghi đè (%d/%d)</string>
     <string name="modpack_install_download_failed">Không thể tải tệp gói tích hợp</string>
     <string name="modpack_prepare_mod_loader_installation">Đã cài đặt tất cả các mod, đang chuẩn bị cài đặt bộ nạp mod</string>
     <!-- Clear Up -->
@@ -615,7 +615,7 @@
     <string name="update_fail">Lỗi mạng, tạm thời không thể lấy cập nhật!</string>
     <string name="update_fail_code">Lỗi mạng, tạm thời không thể lấy cập nhật! Mã lỗi: %d</string>
     <string name="update_success">Gói cài đặt mới nhất đã được tải xuống, bạn có muốn cài đặt không? Vị trí gói cài đặt:</string>
-    <string name="update_downloading">Đang tải gói cài đặt… (%s / %s)</string>
+    <string name="update_downloading" formatted="false">Đang tải gói cài đặt… (%s / %s)</string>
     <string name="update_downloading_tip">Đang lấy, nguồn cập nhật: %s</string>
     <!-- Other Login -->
     <string name="other_login_server">Máy chủ Auth</string>

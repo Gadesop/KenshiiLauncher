@@ -79,8 +79,8 @@
     <string name="version_beta">Beta-Version</string>
     <string name="force_exit_confirm">Bist du sicher, dass du gewaltsam schließen möchtest?</string>
     <string name="autoram_info_msg">Speicher auf %d MB gesetzt</string>
-    <string name="memory_warning_msg">Der verfügbare Speicher (%d) ist niedriger als der zugewiesene Speicher (%d), was zu Abstürzen führen kann. Wenn das Spiel abstürzt, ändere bitte die Konfiguration!</string>
-    <string name="address_memory_warning_msg">Der verfügbare freie Speicherplatz (%d) ist niedriger als der zugewiesene Speicher (%d), was zu Abstürzen führen kann. Wenn das Spiel abstürzt, passe bitte die Speicherzuweisung an.</string>
+    <string name="memory_warning_msg" formatted="false">Der verfügbare Speicher (%d) ist niedriger als der zugewiesene Speicher (%d), was zu Abstürzen führen kann. Wenn das Spiel abstürzt, ändere bitte die Konfiguration!</string>
+    <string name="address_memory_warning_msg" formatted="false">Der verfügbare freie Speicherplatz (%d) ist niedriger als der zugewiesene Speicher (%d), was zu Abstürzen führen kann. Wenn das Spiel abstürzt, passe bitte die Speicherzuweisung an.</string>
     <string name="notif_channel_name">Allgemein</string>
     <string name="lazy_service_default_title">%s Empfangsdienst</string>
     <string name="progresslayout_tasks_in_progress">%d Aufgaben laufen</string>
@@ -105,13 +105,13 @@
     <string name="notif_download_finished">Das Spiel ist bereit zum Starten</string>
     <string name="notif_download_finished_desc">Klicke hier, um es zu starten!</string>
     <string name="notification_permission_dialog_title">Berechtigungsanfrage</string>
-    <string name="notification_permission_dialog_text">%s benötigt die Berechtigung, Benachrichtigungen zu senden, um zu verhindern, dass beim Verlassen der Anwendung der Download von Spieldateien gestoppt wird. Ohne diese Berechtigung könnte Android deinen Download-Fortschritt stoppen, wenn du %s in den Hintergrund stellst.</string>
+    <string name="notification_permission_dialog_text" formatted="false">%s benötigt die Berechtigung, Benachrichtigungen zu senden, um zu verhindern, dass beim Verlassen der Anwendung der Download von Spieldateien gestoppt wird. Ohne diese Berechtigung könnte Android deinen Download-Fortschritt stoppen, wenn du %s in den Hintergrund stellst.</string>
     <string name="notification_permission_toast">Du kannst deine Meinung jederzeit ändern, indem du in die \"Systemeinstellungen\" gehst</string>
     <string name="newdl_starting">Lese Spiel-Metadaten…</string>
     <string name="newdl_downloading_metadata">Lade Spiel-Metadaten herunter (%s)</string>
-    <string name="newdl_downloading_game_files">Lade Spiel-Dateien herunter… (%d/%d, %.2f MB)</string>
-    <string name="newdl_downloading_game_files_size">Spieldateien werden heruntergeladen… (%.2f/%.2f MB, %.2f MB/s)</string>
-    <string name="newdl_extracting_native_libraries">Extrahiere native Bibliotheken (%d/%d)</string>
+    <string name="newdl_downloading_game_files" formatted="false">Lade Spiel-Dateien herunter… (%d/%d, %.2f MB)</string>
+    <string name="newdl_downloading_game_files_size" formatted="false">Spieldateien werden heruntergeladen… (%.2f/%.2f MB, %.2f MB/s)</string>
+    <string name="newdl_extracting_native_libraries" formatted="false">Extrahiere native Bibliotheken (%d/%d)</string>
     <string name="log_view_button_scroll_off">Automatisch scrollen: Aus</string>
     <string name="log_view_button_scroll_on">Automatisch scrollen: Ein</string>
     <string name="log_view_button_output_off">Ausgabe: Aus</string>
@@ -127,7 +127,7 @@
     <string name="mod_failed_to_load_list">Fehler beim Laden der Versionsliste!</string>
     <string name="mod_optifine_progress">Lade %s herunter</string>
     <string name="mod_check_dialog_title">Mod-Check-Bericht</string>
-    <string name="mod_check_progress_message">Überprüfe Mods (%d / %d)</string>
+    <string name="mod_check_progress_message" formatted="false">Überprüfe Mods (%d / %d)</string>
     <string name="mod_check_touch_controller">Es wurde festgestellt, dass das Touch Controller Mod (%s) installiert ist, der Launcher ist bereit, den Steuerungsproxy zu aktivieren, um das Mod anzupassen.</string>
     <string name="mod_check_sodium_or_embeddium">Installiertes Sodium- oder Embeddium-Mod (%s) erkannt. Der Launcher wird die Warnungen dieses Mods deaktivieren oder verhindern, dass er absichtlich auf Android-Geräten abstürzt. Bitte beachte jedoch, dass die Community des Mods ausdrücklich erklärt hat, dass sie keine Probleme im Zusammenhang mit Android-Geräten mehr akzeptieren wird. Daher, wenn du Probleme mit diesem Mod hast, melde sie nicht an die Mod-Community!</string>
     <string name="mod_check_physics">Das aktuell verwendete Physik-Mod (%s) ist nicht gepatcht (libPhysXJniBindings_64.so wird von der x86_64-Architektur auf arm64 ersetzt), es wird beim Start abstürzen.</string>
@@ -135,7 +135,7 @@
     <string name="mod_check_valkyrien_skies">Valkyrien Skies/Valkyrien Warfare (%s) kann nicht direkt im Einzelspielermodus ausgeführt werden. Du musst es auf einem Server ausführen (Termux kann verwendet werden), sonst stürzt das Spiel ab.</string>
     <string name="mod_check_yes_steve_model">Yes Steve Model (%s) 2.2.2–2.5.1 kann nicht auf Android ausgeführt werden.</string>
     <string name="mod_check_imblocker">IMBlocker/In-GameIME (%s) ist nicht mit Android kompatibel und führt beim Starten des Spiels zum Absturz.</string>
-    <string name="mod_check_replay_mod">ReplayMod (%s) benötigt FFmpeg zum Rendern von Videos. Bitte installiere das FFmpeg-Plugin separat\n%s\n%s</string>
+    <string name="mod_check_replay_mod" formatted="false">ReplayMod (%s) benötigt FFmpeg zum Rendern von Videos. Bitte installiere das FFmpeg-Plugin separat\n%s\n%s</string>
     <string name="mod_check_borderlesswindow">Borderless Window (%s) ist nicht mit Android kompatibel und führt beim Starten des Spiels zum Absturz.</string>
     <!-- Controls -->
     <string name="control_primary">Linksklick</string>
@@ -255,7 +255,7 @@
     <!-- Permissions -->
     <string name="permissions_manage_external_storage">%s benötigt die Berechtigung, um alle Dateien auf dem Gerät zu verwalten, damit diese Funktion ordnungsgemäß funktioniert. Bitte erteilen Sie die Berechtigung!</string>
     <string name="permissions_write_external_storage">%s benötigt die Speicherverwaltungsberechtigung. Wenn die Berechtigung nicht aktiviert ist, können Probleme auftreten, wie z. B. das fehlerhafte Speichern oder Entpacken von Spieldateien. Bitte erteilen Sie die Berechtigung, um die ordnungsgemäße Funktion sicherzustellen.</string>
-    <string name="permissions_storage_for_renderer_config">Das gewählte Renderer-Plugin %s hat möglicherweise Einstellungen. Falls %s keinen Speicherzugriff hat, können sie nicht gelesen werden. Bitte erteilen Sie die Berechtigung.</string>
+    <string name="permissions_storage_for_renderer_config" formatted="false">Das gewählte Renderer-Plugin %s hat möglicherweise Einstellungen. Falls %s keinen Speicherzugriff hat, können sie nicht gelesen werden. Bitte erteilen Sie die Berechtigung.</string>
     <!-- Profiles Path -->
     <string name="profiles_path_title">Spielpfad-Verwaltung</string>
     <string name="profiles_path_default">Standardpfad</string>
@@ -337,7 +337,7 @@
     <string name="custom_mouse_added">Virtuelle Maus erfolgreich eingestellt:</string>
     <string name="custom_mouse_default">Standard-Virtuelle Maus</string>
     <string name="custom_mouse_title">Benutzerdefinierte virtuelle Maus</string>
-    <string name="custom_mouse_dialog">Sie können Mausbilder in (Startereinstellungen - %s - %s) hinzufügen</string>
+    <string name="custom_mouse_dialog" formatted="false">Sie können Mausbilder in (Startereinstellungen - %s - %s) hinzufügen</string>
     <string name="custom_mouse_desc">Öffnen Sie die virtuelle Maus-Verwaltungsoberfläche, um Ihre bevorzugten virtuellen Maus-Grafiken hinzuzufügen und zu verwenden</string>
     <string name="custom_mouse_message_default">Die aktuell ausgewählte virtuelle Maus ist die Standard-Virtuelle Maus, die nicht für die Freigabe, Umbenennung oder Löschung unterstützt wird</string>
     <string name="custom_background_add">Hintergrundbild hinzufügen</string>
@@ -372,10 +372,10 @@
     <string name="file_multi_select_mode">Mehrfachauswahlmodus aktivieren</string>
     <string name="file_multi_select_mode_title">Mehrfachauswahl</string>
     <string name="file_multi_select_mode_message">Insgesamt wurden %d Elemente ausgewählt</string>
-    <string name="file_operation_file">Datei wird bearbeitet… (%s / %s, %d)</string>
+    <string name="file_operation_file" formatted="false">Datei wird bearbeitet… (%s / %s, %d)</string>
     <string name="file_jump_to_path">Zu Pfad springen</string>
     <string name="file_nothing">Es wurden keine Dateien gefunden!</string>
-    <string name="file_invalid_length">Name zu lang! (Aktuelle Länge: %d, Maximale Länge: %d)</string>
+    <string name="file_invalid_length" formatted="false">Name zu lang! (Aktuelle Länge: %d, Maximale Länge: %d)</string>
     <!-- Search View -->
     <string name="search_case_sensitive">Groß-/Kleinschreibung beachten</string>
     <string name="search_only_show_results">Nur Suchergebnisse anzeigen</string>
@@ -468,7 +468,7 @@
     <string name="setting_java_args_desc">Zusätzlich hinzugefügte JVM-Parameter beim Start von Minecraft. Es wird nicht empfohlen, diese ohne Kenntnisse zu ändern, da dies zu einem Absturz des Spiels führen kann.</string>
     <string name="setting_java_memory_title">Speicherzuweisung</string>
     <string name="setting_java_memory_desc">Steuern, wie viel Speicher Minecraft zugewiesen wird</string>
-    <string name="setting_java_memory_info">Aktuelle Speichernutzungsinformationen: %s / %s, freier Speicher: %s</string>
+    <string name="setting_java_memory_info" formatted="false">Aktuelle Speichernutzungsinformationen: %s / %s, freier Speicher: %s</string>
     <string name="setting_java_memory_exceeded">Der aktuell festgelegte Speicher überschreitet die verfügbare Speicherkapazität</string>
     <string name="setting_java_sandbox_title">Sandbox-Sicherheitsmanager aktivieren</string>
     <string name="setting_java_sandbox_desc">Ob der Sandbox-Sicherheitsmanager beim Ausführen von .jar-Dateien aktiviert werden soll</string>
@@ -575,7 +575,7 @@
     <string name="download_search_no_result">Keine verwandten Ressourcen gefunden!</string>
     <string name="download_search_platform_not_supported">Die aktuelle Plattform unterstützt das Herunterladen dieses Typs von Ressourcen oder diese Kategoriefilterung nicht!</string>
     <string name="download_install_custom_name">Benutzerdefinierter Dateiname</string>
-    <string name="download_install_download_file">Lade Ressourcendatei herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
+    <string name="download_install_download_file" formatted="false">Lade Ressourcendatei herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
     <string name="download_install_dependencies">%s hat die folgenden Abhängigkeiten oder inkompatiblen Mods</string>
     <string name="download_install_dependencies_tip">Bitte laden Sie die erforderlichen Abhängigkeits-Mods nach Bedarf herunter. Fehlende notwendige Abhängigkeiten oder inkompatible Mods können dazu führen, dass das Spiel nicht startet!</string>
     <string name="download_install_dependencies_required">Erforderlich</string>
@@ -590,11 +590,11 @@
     <!-- ModPack -->
     <string name="select_modpack_local_tip">Bitte wählen Sie eine Modpack-Datei aus, die der Launcher unterstützt!</string>
     <string name="select_modpack_local_not_supported">Dieses Modpack wird nicht von dem Launcher unterstützt! Der Launcher nur Modpacks in Modrinth, CurseForge und MCBBS Format unterstützt. Bitte überprüfen Sie, ob Ihr Modpack gemäß der vorgeschriebenen Formatierung erstellt wurde!</string>
-    <string name="select_modpack_local_installing_files">Installiere Spieldateien… (%d / %d)</string>
-    <string name="modpack_download_downloading_metadata">Lade Modpack-Metadaten herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
-    <string name="modpack_download_downloading_mods">Lade Mods herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
-    <string name="modpack_download_downloading_mods_fc">Lade Mods herunter (Heruntergeladene Dateien: %d (%s), Gesamte Dateianzahl: %d, Geschwindigkeit: %s/s)</string>
-    <string name="modpack_download_applying_overrides">Wende Überschreibungen an (%d/%d)</string>
+    <string name="select_modpack_local_installing_files" formatted="false">Installiere Spieldateien… (%d / %d)</string>
+    <string name="modpack_download_downloading_metadata" formatted="false">Lade Modpack-Metadaten herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
+    <string name="modpack_download_downloading_mods" formatted="false">Lade Mods herunter (%.2fMB / %.2fMB, Geschwindigkeit: %s/s)</string>
+    <string name="modpack_download_downloading_mods_fc" formatted="false">Lade Mods herunter (Heruntergeladene Dateien: %d (%s), Gesamte Dateianzahl: %d, Geschwindigkeit: %s/s)</string>
+    <string name="modpack_download_applying_overrides" formatted="false">Wende Überschreibungen an (%d/%d)</string>
     <string name="modpack_install_download_failed">Fehler beim Herunterladen der Modpack-Dateien</string>
     <string name="modpack_prepare_mod_loader_installation">Alle Mods wurden installiert, bereite Installation des Mod Loaders vor</string>
     <!-- Clear Up -->
@@ -615,7 +615,7 @@
     <string name="update_fail">Netzwerkfehler, Update kann vorübergehend nicht abgerufen werden!</string>
     <string name="update_fail_code">Netzwerkfehler, Update kann vorübergehend nicht abgerufen werden! Fehlercode: %d</string>
     <string name="update_success">Das neueste Installationspaket wurde heruntergeladen. Möchten Sie es installieren? Speicherort des Installationspakets:</string>
-    <string name="update_downloading">Installationspaket wird heruntergeladen… (%s / %s)</string>
+    <string name="update_downloading" formatted="false">Installationspaket wird heruntergeladen… (%s / %s)</string>
     <string name="update_downloading_tip">Wird abgerufen, Aktualisierungsquelle: %s</string>
     <!-- Other Login -->
     <string name="other_login_server">Auth-Server</string>

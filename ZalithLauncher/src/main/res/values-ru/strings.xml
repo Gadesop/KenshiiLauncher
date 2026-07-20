@@ -79,8 +79,8 @@
     <string name="version_beta">Бета</string>
     <string name="force_exit_confirm">Вы уверены, что хотите принудительно закрыть?</string>
     <string name="autoram_info_msg">Память установлена на %d МБ</string>
-    <string name="memory_warning_msg">Доступная память (%d) ниже выделенной (%d), это может привести к сбою игры. Если игра закроется, измените конфигурацию!</string>
-    <string name="address_memory_warning_msg">Доступное свободное пространство памяти (%d) ниже выделенного (%d), это приведет к сбою. Если игра закроется, отрегулируйте выделение памяти.</string>
+    <string name="memory_warning_msg" formatted="false">Доступная память (%d) ниже выделенной (%d), это может привести к сбою игры. Если игра закроется, измените конфигурацию!</string>
+    <string name="address_memory_warning_msg" formatted="false">Доступное свободное пространство памяти (%d) ниже выделенного (%d), это приведет к сбою. Если игра закроется, отрегулируйте выделение памяти.</string>
     <string name="notif_channel_name">Обычный</string>
     <string name="lazy_service_default_title">Служба ресепшн %s</string>
     <string name="progresslayout_tasks_in_progress">%d задач в процессе</string>
@@ -105,13 +105,13 @@
     <string name="notif_download_finished">Игра готова к запуску</string>
     <string name="notif_download_finished_desc">Нажмите здесь, чтобы запустить ее!</string>
     <string name="notification_permission_dialog_title">Запрос разрешения</string>
-    <string name="notification_permission_dialog_text">%s требует разрешения на отправку уведомлений, чтобы предотвратить остановку загрузки файлов игры, когда вы покидаете приложение. Без этого разрешения Android может остановить вашу загрузку, когда %s находится в фоновом режиме</string>
+    <string name="notification_permission_dialog_text" formatted="false">%s требует разрешения на отправку уведомлений, чтобы предотвратить остановку загрузки файлов игры, когда вы покидаете приложение. Без этого разрешения Android может остановить вашу загрузку, когда %s находится в фоновом режиме</string>
     <string name="notification_permission_toast">Вы можете изменить свое решение в любое время, перейдя в \"Системные настройки\"</string>
     <string name="newdl_starting">Чтение метаданных игры…</string>
     <string name="newdl_downloading_metadata">Загрузка метаданных игры (%s)</string>
-    <string name="newdl_downloading_game_files">Загрузка файлов игры… (%d/%d, %.2f MB)</string>
-    <string name="newdl_downloading_game_files_size">Загрузка игровых файлов… (%.2f/%.2f МБ, %.2f МБ/с)</string>
-    <string name="newdl_extracting_native_libraries">Извлечение нативных библиотек (%d/%d)</string>
+    <string name="newdl_downloading_game_files" formatted="false">Загрузка файлов игры… (%d/%d, %.2f MB)</string>
+    <string name="newdl_downloading_game_files_size" formatted="false">Загрузка игровых файлов… (%.2f/%.2f МБ, %.2f МБ/с)</string>
+    <string name="newdl_extracting_native_libraries" formatted="false">Извлечение нативных библиотек (%d/%d)</string>
     <string name="log_view_button_scroll_off">Автопрокрутка: Выкл</string>
     <string name="log_view_button_scroll_on">Автопрокрутка: Вкл</string>
     <string name="log_view_button_output_off">Вывод: Выкл</string>
@@ -127,7 +127,7 @@
     <string name="mod_failed_to_load_list">Не удалось загрузить список версий!</string>
     <string name="mod_optifine_progress">Загрузка %s</string>
     <string name="mod_check_dialog_title">Отчёт проверки модов</string>
-    <string name="mod_check_progress_message">Проверка модов (%d / %d)</string>
+    <string name="mod_check_progress_message" formatted="false">Проверка модов (%d / %d)</string>
     <string name="mod_check_touch_controller">Обнаружено, что мод Touch Controller (%s) установлен, загрузчик готов активировать прокси управления для адаптации мода.</string>
     <string name="mod_check_sodium_or_embeddium">Обнаружен установленный мод Sodium или Embeddium (%s). Лаунчер отключит предупреждения этого мода или предотвратит его намеренный сбой на устройствах Android. Однако обратите внимание, что сообщество мода прямо заявило, что больше не принимает никаких проблем, связанных с устройствами Android. Поэтому, если у вас возникнут проблемы при использовании этого мода, не сообщайте о них в сообщество мода!</string>
     <string name="mod_check_physics">Используемый в данный момент физический мод (%s) не запатчен (замена libPhysXJniBindings_64.so с архитектуры x86_64 на arm64), при запуске он будет аварийно завершаться.</string>
@@ -135,7 +135,7 @@
     <string name="mod_check_valkyrien_skies">Valkyrien Skies/Valkyrien Warfare (%s) не может запускаться напрямую в одиночном режиме. Вы должны запускать его на сервере (можно использовать Termux), иначе игра вылетит.</string>
     <string name="mod_check_yes_steve_model">Yes Steve Model (%s) 2.2.2–2.5.1 не может работать на Android.</string>
     <string name="mod_check_imblocker">IMBlocker/In-GameIME (%s) не совместим с Android и вызывает сбой игры при запуске.</string>
-    <string name="mod_check_replay_mod">ReplayMod (%s) требует FFmpeg для рендеринга видео. Пожалуйста, установите плагин FFmpeg отдельно\n%s\n%s</string>
+    <string name="mod_check_replay_mod" formatted="false">ReplayMod (%s) требует FFmpeg для рендеринга видео. Пожалуйста, установите плагин FFmpeg отдельно\n%s\n%s</string>
     <string name="mod_check_borderlesswindow">Borderless Window (%s) не совместим с Android и вызывает сбой игры при запуске.</string>
     <!-- Controls -->
     <string name="control_primary">Левая кнопка</string>
@@ -255,7 +255,7 @@
     <!-- Permissions -->
     <string name="permissions_manage_external_storage">%s требует разрешения на управление всеми файлами устройства для правильной работы этой функции, пожалуйста, включите разрешение!</string>
     <string name="permissions_write_external_storage">Для работы %s требуется разрешение на управление хранилищем. Если разрешение не предоставлено, могут возникнуть проблемы, такие как невозможность сохранения или распаковки игровых файлов. Пожалуйста, предоставьте разрешение для обеспечения корректной работы.</string>
-    <string name="permissions_storage_for_renderer_config">Выбранный рендер-плагин %s может иметь настройки. Если у %s нет доступа к хранилищу, их нельзя прочитать. Разрешите доступ для корректной работы.</string>
+    <string name="permissions_storage_for_renderer_config" formatted="false">Выбранный рендер-плагин %s может иметь настройки. Если у %s нет доступа к хранилищу, их нельзя прочитать. Разрешите доступ для корректной работы.</string>
     <!-- Profiles Path -->
     <string name="profiles_path_title">Управление путями игры</string>
     <string name="profiles_path_default">Путь по умолчанию</string>
@@ -337,7 +337,7 @@
     <string name="custom_mouse_added">Виртуальная мышь успешно установлена:</string>
     <string name="custom_mouse_default">Виртуальная мышь по умолчанию</string>
     <string name="custom_mouse_title">Пользовательская виртуальная мышь</string>
-    <string name="custom_mouse_dialog">Вы можете добавить изображения мыши в (Настройки запуска - %s - %s)</string>
+    <string name="custom_mouse_dialog" formatted="false">Вы можете добавить изображения мыши в (Настройки запуска - %s - %s)</string>
     <string name="custom_mouse_desc">Откройте интерфейс управления виртуальной мышью, где вы сможете добавить свои любимые текстуры мыши и использовать их</string>
     <string name="custom_mouse_message_default">Выбранная виртуальная мышь является мышью по умолчанию, её нельзя делиться, переименовывать или удалять</string>
     <string name="custom_background_add">Добавить фоновое изображение</string>
@@ -372,10 +372,10 @@
     <string name="file_multi_select_mode">Включить режим множественного выбора</string>
     <string name="file_multi_select_mode_title">Множественный выбор</string>
     <string name="file_multi_select_mode_message">Выбрано всего %d элементов</string>
-    <string name="file_operation_file">Выполняется операция с файлом… (%s / %s, %d)</string>
+    <string name="file_operation_file" formatted="false">Выполняется операция с файлом… (%s / %s, %d)</string>
     <string name="file_jump_to_path">Перейти к пути</string>
     <string name="file_nothing">Файлы не найдены!</string>
-    <string name="file_invalid_length">Имя слишком длинное! (Текущая длина: %d, Максимальная длина: %d)</string>
+    <string name="file_invalid_length" formatted="false">Имя слишком длинное! (Текущая длина: %d, Максимальная длина: %d)</string>
     <!-- Search View -->
     <string name="search_case_sensitive">Учитывать регистр</string>
     <string name="search_only_show_results">Показывать только результаты поиска</string>
@@ -468,7 +468,7 @@
     <string name="setting_java_args_desc">Дополнительные параметры JVM, добавляемые при запуске Minecraft. Не рекомендуется изменять без уверенности, так как это может привести к сбоям игры.</string>
     <string name="setting_java_memory_title">Выделение памяти</string>
     <string name="setting_java_memory_desc">Управление количеством памяти, выделяемой для Minecraft</string>
-    <string name="setting_java_memory_info">Информация о текущем использовании памяти: %s / %s, свободный объем памяти: %s</string>
+    <string name="setting_java_memory_info" formatted="false">Информация о текущем использовании памяти: %s / %s, свободный объем памяти: %s</string>
     <string name="setting_java_memory_exceeded">Установленный объем памяти превышает доступный объем</string>
     <string name="setting_java_sandbox_title">Включить менеджер безопасности песочницы</string>
     <string name="setting_java_sandbox_desc">Включить менеджер безопасности песочницы при выполнении .jar файлов</string>
@@ -575,7 +575,7 @@
     <string name="download_search_no_result">Связанные ресурсы не найдены!</string>
     <string name="download_search_platform_not_supported">Текущая платформа не поддерживает загрузку этого типа ресурса или фильтрацию этой категории!</string>
     <string name="download_install_custom_name">Пользовательское имя файла</string>
-    <string name="download_install_download_file">Загрузка ресурсного файла (%.2fMB / %.2fMB, скорость: %s/s)</string>
+    <string name="download_install_download_file" formatted="false">Загрузка ресурсного файла (%.2fMB / %.2fMB, скорость: %s/s)</string>
     <string name="download_install_dependencies">У %s есть следующие зависимости или несовместимые моды</string>
     <string name="download_install_dependencies_tip">Загрузите необходимые моды-зависимости по мере необходимости. Отсутствие необходимых зависимостей или установка несовместимых модов может привести к тому, что игра не запустится!</string>
     <string name="download_install_dependencies_required">Обязательно</string>
@@ -590,11 +590,11 @@
     <!-- ModPack -->
     <string name="select_modpack_local_tip">Пожалуйста, выберите файл модпака, который поддерживается лаунчером для импорта!</string>
     <string name="select_modpack_local_not_supported">Этот модпак не поддерживается лаунчером! Лаунчер поддерживает только импорт модпаков в формате Modrinth, CurseForge и MCBBS. Пожалуйста, проверьте, соответствует ли ваш модпак указанным форматам!</string>
-    <string name="select_modpack_local_installing_files">Установка игровых файлов… (%d / %d)</string>
-    <string name="modpack_download_downloading_metadata">Загрузка метаданных модпака (%.2fMB / %.2fMB, скорость: %s/s)</string>
-    <string name="modpack_download_downloading_mods">Загрузка модов (%.2fMB / %.2fMB, скорость: %s/s)</string>
-    <string name="modpack_download_downloading_mods_fc">Загрузка модов (загружено файлов: %d (%s), всего файлов: %d, скорость: %s/s)</string>
-    <string name="modpack_download_applying_overrides">Применение переопределений (%d/%d)</string>
+    <string name="select_modpack_local_installing_files" formatted="false">Установка игровых файлов… (%d / %d)</string>
+    <string name="modpack_download_downloading_metadata" formatted="false">Загрузка метаданных модпака (%.2fMB / %.2fMB, скорость: %s/s)</string>
+    <string name="modpack_download_downloading_mods" formatted="false">Загрузка модов (%.2fMB / %.2fMB, скорость: %s/s)</string>
+    <string name="modpack_download_downloading_mods_fc" formatted="false">Загрузка модов (загружено файлов: %d (%s), всего файлов: %d, скорость: %s/s)</string>
+    <string name="modpack_download_applying_overrides" formatted="false">Применение переопределений (%d/%d)</string>
     <string name="modpack_install_download_failed">Не удалось загрузить файлы модпака</string>
     <string name="modpack_prepare_mod_loader_installation">Все моды установлены, готовится установка загрузчика модов</string>
     <!-- Clear Up -->
@@ -615,7 +615,7 @@
     <string name="update_fail">Сетевая ошибка, временно невозможно получить обновление!</string>
     <string name="update_fail_code">Сетевая ошибка, временно невозможно получить обновление! Код ошибки: %d</string>
     <string name="update_success">Последний установочный файл был успешно загружен, хотите установить? Путь к установочному файлу:</string>
-    <string name="update_downloading">Загрузка установочного файла… (%s / %s)</string>
+    <string name="update_downloading" formatted="false">Загрузка установочного файла… (%s / %s)</string>
     <string name="update_downloading_tip">Загрузка в процессе, источник обновления: %s</string>
     <!-- Other Login -->
     <string name="other_login_server">Сервер авторизации</string>

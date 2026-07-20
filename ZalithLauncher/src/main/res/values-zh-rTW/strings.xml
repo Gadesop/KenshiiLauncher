@@ -79,8 +79,8 @@
     <string name="version_beta">Beta 版</string>
     <string name="force_exit_confirm">你確定要強制關閉嗎？</string>
     <string name="autoram_info_msg">記憶體已設為 %d MB</string>
-    <string name="memory_warning_msg">目前可用記憶體（%d）低於已分配的記憶體（%d），這可能會導致遊戲當機，若遊戲當機，請更改設定！</string>
-    <string name="address_memory_warning_msg">目前可用的空閒記憶體空間 (%d) 低於分配的記憶體 (%d)，這會導致當機，若遊戲當機，請調整記憶體分配。</string>
+    <string name="memory_warning_msg" formatted="false">目前可用記憶體（%d）低於已分配的記憶體（%d），這可能會導致遊戲當機，若遊戲當機，請更改設定！</string>
+    <string name="address_memory_warning_msg" formatted="false">目前可用的空閒記憶體空間 (%d) 低於分配的記憶體 (%d)，這會導致當機，若遊戲當機，請調整記憶體分配。</string>
     <string name="notif_channel_name">一般</string>
     <string name="lazy_service_default_title">%s 前台服務</string>
     <string name="progresslayout_tasks_in_progress">%d 項任務正在進行中</string>
@@ -105,13 +105,13 @@
     <string name="notif_download_finished">遊戲已準備好啟動</string>
     <string name="notif_download_finished_desc">點擊這裡啟動它！</string>
     <string name="notification_permission_dialog_title">權限請求</string>
-    <string name="notification_permission_dialog_text">%s 需要通知的權限，以防止你離開應用程式時，停止遊戲檔案的下載。如果沒有此權限，當你將 %s 置於背景時，Android 可能會停止你的下載進度。</string>
+    <string name="notification_permission_dialog_text" formatted="false">%s 需要通知的權限，以防止你離開應用程式時，停止遊戲檔案的下載。如果沒有此權限，當你將 %s 置於背景時，Android 可能會停止你的下載進度。</string>
     <string name="notification_permission_toast">你可以隨時通過進入「系統設定」改變你的決定</string>
     <string name="newdl_starting">讀取遊戲元數據中…</string>
     <string name="newdl_downloading_metadata">下載遊戲元數據中 (%s)</string>
-    <string name="newdl_downloading_game_files">下載遊戲檔案中… (%d/%d, %.2f MB)</string>
-    <string name="newdl_downloading_game_files_size">下載遊戲文件中… (%.2f/%.2f MB, %.2f MB/s)</string>
-    <string name="newdl_extracting_native_libraries">提取原生庫 (%d/%d)</string>
+    <string name="newdl_downloading_game_files" formatted="false">下載遊戲檔案中… (%d/%d, %.2f MB)</string>
+    <string name="newdl_downloading_game_files_size" formatted="false">下載遊戲文件中… (%.2f/%.2f MB, %.2f MB/s)</string>
+    <string name="newdl_extracting_native_libraries" formatted="false">提取原生庫 (%d/%d)</string>
     <string name="log_view_button_scroll_off">自動滾動: 關閉</string>
     <string name="log_view_button_scroll_on">自動滾動: 開啟</string>
     <string name="log_view_button_output_off">輸出: 關閉</string>
@@ -127,7 +127,7 @@
     <string name="mod_failed_to_load_list">載入版本列表失敗！</string>
     <string name="mod_optifine_progress">正在下載 %s</string>
     <string name="mod_check_dialog_title">模組檢查報告</string>
-    <string name="mod_check_progress_message">正在檢查模組中 (%d / %d)</string>
+    <string name="mod_check_progress_message" formatted="false">正在檢查模組中 (%d / %d)</string>
     <string name="mod_check_touch_controller">檢查到已安裝 Touch Controller 模組 (%s)，啟動器已準備好啟用控制代理，以適配該模組。</string>
     <string name="mod_check_sodium_or_embeddium">檢測到已安裝 Sodium 或 Embeddium 模組 (%s)。啟動器將會停用該模組的警告，或防止其在 Android 設備上刻意導致崩潰。但請注意，該模組的社群已明確表態不再受理任何與 Android 設備相關的問題。因此，如果你在使用該模組時遇到任何問題，請勿向該模組的社群回報！</string>
     <string name="mod_check_physics">當前使用的物理模組 (%s) 未經修補 (將 libPhysXJniBindings_64.so 從 x86_64 架構替換到 arm64)，啟動後將會崩潰。</string>
@@ -135,7 +135,7 @@
     <string name="mod_check_valkyrien_skies">Valkyrien Skies/Valkyrien Warfare (%s) 無法直接在單人模式下運行。你必須使用伺服器運行（可以使用 Termux），否則遊戲會崩潰.</string>
     <string name="mod_check_yes_steve_model">Yes Steve Model (%s) 2.2.2–2.5.1 無法在 Android 系統上運行.</string>
     <string name="mod_check_imblocker">IMBlocker/In-GameIME (%s) 不適用於 Android，會導致遊戲在啟動時崩潰。</string>
-    <string name="mod_check_replay_mod">ReplayMod (%s) 需要 FFmpeg 來渲染影片，請另外安裝 FFmpeg 插件\n%s\n%s</string>
+    <string name="mod_check_replay_mod" formatted="false">ReplayMod (%s) 需要 FFmpeg 來渲染影片，請另外安裝 FFmpeg 插件\n%s\n%s</string>
     <string name="mod_check_borderlesswindow">Borderless Window (%s) 不適用於 Android，會導致遊戲在啟動時崩潰。</string>
     <!-- Controls -->
     <string name="control_primary">左鍵</string>
@@ -255,7 +255,7 @@
     <!-- Permissions -->
     <string name="permissions_manage_external_storage">%s 需要管理裝置所有檔案的權限，以便正常使用這個功能，請開啟權限！</string>
     <string name="permissions_write_external_storage">%s 需要授予存儲管理權限。如果未開啟權限，可能會導致遊戲文件無法正常保存、解壓等問題。請授予權限，以確保功能正常運行。</string>
-    <string name="permissions_storage_for_renderer_config">所選的渲染器插件 %s 可能有設定。如果 %s 未獲授存儲權限，設定將無法讀取。請授權以確保正常運作。</string>
+    <string name="permissions_storage_for_renderer_config" formatted="false">所選的渲染器插件 %s 可能有設定。如果 %s 未獲授存儲權限，設定將無法讀取。請授權以確保正常運作。</string>
     <!-- Profiles Path -->
     <string name="profiles_path_title">遊戲路徑管理</string>
     <string name="profiles_path_default">預設路徑</string>
@@ -337,7 +337,7 @@
     <string name="custom_mouse_added">成功設定虛擬滑鼠:</string>
     <string name="custom_mouse_default">預設虛擬滑鼠</string>
     <string name="custom_mouse_title">自訂虛擬滑鼠</string>
-    <string name="custom_mouse_dialog">您可以在（啟動器設定 - %s- %s）內加入滑鼠圖片</string>
+    <string name="custom_mouse_dialog" formatted="false">您可以在（啟動器設定 - %s- %s）內加入滑鼠圖片</string>
     <string name="custom_mouse_desc">打開虛擬滑鼠管理介面，你可以自行添加喜歡的虛擬滑鼠貼圖，並使用它們</string>
     <string name="custom_mouse_message_default">當前選中的虛擬滑鼠為預設虛擬滑鼠，不支援分享、重新命名或刪除操作</string>
     <string name="custom_background_add">添加背景圖片</string>
@@ -372,10 +372,10 @@
     <string name="file_multi_select_mode">開啟多選模式</string>
     <string name="file_multi_select_mode_title">多選項目</string>
     <string name="file_multi_select_mode_message">目前總共選擇了 %d 個項目</string>
-    <string name="file_operation_file">正在操作檔案中… (%s / %s, %d)</string>
+    <string name="file_operation_file" formatted="false">正在操作檔案中… (%s / %s, %d)</string>
     <string name="file_jump_to_path">跳轉至路徑</string>
     <string name="file_nothing">沒有找到任何檔案哦！</string>
-    <string name="file_invalid_length">名稱過長！(目前長度：%d，最大長度：%d)</string>
+    <string name="file_invalid_length" formatted="false">名稱過長！(目前長度：%d，最大長度：%d)</string>
     <!-- Search View -->
     <string name="search_case_sensitive">區分大小寫</string>
     <string name="search_only_show_results">僅展示搜尋結果</string>
@@ -468,7 +468,7 @@
     <string name="setting_java_args_desc">啟動 Minecraft 時，額外添加的 JVM 參數，不建議在沒有把握的情況下進行修改，因為這很有可能導致遊戲崩潰</string>
     <string name="setting_java_memory_title">記憶體分配</string>
     <string name="setting_java_memory_desc">控制給 Minecraft 分配多少記憶體</string>
-    <string name="setting_java_memory_info">當前記憶體使用資訊：%s / %s ，空閒記憶體大小：%s</string>
+    <string name="setting_java_memory_info" formatted="false">當前記憶體使用資訊：%s / %s ，空閒記憶體大小：%s</string>
     <string name="setting_java_memory_exceeded">當前設定的記憶體空間超出了可用記憶體大小</string>
     <string name="setting_java_sandbox_title">啟用沙盒安全管理器</string>
     <string name="setting_java_sandbox_desc">在執行 .jar 檔案時，是否啟用沙盒安全管理器</string>
@@ -575,7 +575,7 @@
     <string name="download_search_no_result">未找到相關資源！</string>
     <string name="download_search_platform_not_supported">當前平台不支持下載這類資源，或不支持此類別篩選！</string>
     <string name="download_install_custom_name">自訂檔案名稱</string>
-    <string name="download_install_download_file">正在下載資源檔案（%.2fMB / %.2fMB，速度：%s/s）</string>
+    <string name="download_install_download_file" formatted="false">正在下載資源檔案（%.2fMB / %.2fMB，速度：%s/s）</string>
     <string name="download_install_dependencies">%s 有以下相依性或不相容的模組</string>
     <string name="download_install_dependencies_tip">請根據需求下載對應的相依模組，缺少必要的相依模組，或安裝了不相容的模組，將導致遊戲無法運行！</string>
     <string name="download_install_dependencies_required">需裝</string>
@@ -590,11 +590,11 @@
     <!-- ModPack -->
     <string name="select_modpack_local_tip">請選擇一個啟動器支持導入的模組包檔案！</string>
     <string name="select_modpack_local_not_supported">此模組包不受啟動器支援！啟動器僅支援導入 Modrinth、CurseForge、MCBBS 格式的模組包，請檢查您的模組包是否依照規定格式製作！</string>
-    <string name="select_modpack_local_installing_files">安裝遊戲檔案中… (%d / %d)</string>
-    <string name="modpack_download_downloading_metadata">正在下載模組包元數據（%.2fMB / %.2fMB，速度：%s/s）</string>
-    <string name="modpack_download_downloading_mods">正在下載模組（%.2fMB / %.2fMB，速度：%s/s）</string>
-    <string name="modpack_download_downloading_mods_fc">正在下載模組（已下載檔案：%d (%s), 總檔案數：%d, 速度：%s/s）</string>
-    <string name="modpack_download_applying_overrides">正在應用覆蓋（%d/%d）</string>
+    <string name="select_modpack_local_installing_files" formatted="false">安裝遊戲檔案中… (%d / %d)</string>
+    <string name="modpack_download_downloading_metadata" formatted="false">正在下載模組包元數據（%.2fMB / %.2fMB，速度：%s/s）</string>
+    <string name="modpack_download_downloading_mods" formatted="false">正在下載模組（%.2fMB / %.2fMB，速度：%s/s）</string>
+    <string name="modpack_download_downloading_mods_fc" formatted="false">正在下載模組（已下載檔案：%d (%s), 總檔案數：%d, 速度：%s/s）</string>
+    <string name="modpack_download_applying_overrides" formatted="false">正在應用覆蓋（%d/%d）</string>
     <string name="modpack_install_download_failed">模組包檔案下載失敗</string>
     <string name="modpack_prepare_mod_loader_installation">已安裝所有模組，正在準備安裝模組載入器</string>
     <!-- Clear Up -->
@@ -615,7 +615,7 @@
     <string name="update_fail">網路異常，暫時無法獲取更新！</string>
     <string name="update_fail_code">網路異常，暫時無法獲取更新！錯誤碼：%d</string>
     <string name="update_success">最新的安裝包已經下載完成，是否安裝？安裝包位置：</string>
-    <string name="update_downloading">正在下載安裝包… (%s / %s)</string>
+    <string name="update_downloading" formatted="false">正在下載安裝包… (%s / %s)</string>
     <string name="update_downloading_tip">正在獲取中，更新源：%s</string>
     <!-- Other Login -->
     <string name="other_login_server">認證伺服器</string>
