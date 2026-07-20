@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="@drawable/kenify_screen_bg"
     android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +45,7 @@
                 android:id="@+id/nothing_layout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/background_item"
+                android:background="@drawable/background_card"
                 android:padding="@dimen/_8sdp"
                 android:layout_marginHorizontal="@dimen/_8sdp"
                 android:visibility="gone"
@@ -59,13 +59,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/file_nothing"
-                    android:layout_marginStart="@dimen/_8sdp" />
-
-                <com.movtery.zalithlauncher.ui.view.AnimTextView
-                    android:id="@+id/go_download_text"
-                    android:layout_width="wrap_content"
+                android:textColor="@color/primary_text"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_background"
+                    android:background="@drawable/kenify_button_bg"
+                    android:textColor="@android:color/white"
                     android:text="@string/profile_mods_download_mod"
                     android:layout_marginHorizontal="@dimen/_8sdp"
                     app:ripple_for_text="true"/>
@@ -87,7 +84,8 @@
                     android:layout_marginStart="@dimen/_8sdp"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:text="@string/version_manager_shortcuts_mods"
-                    android:textColor="@color/primary_text"
+                    android:textColor="@color/menu_bar_text"
+                    style="@style/KenifyTitleText"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
