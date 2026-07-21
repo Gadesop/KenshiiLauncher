@@ -1,3 +1,4 @@
+import com.movtery.zalithlauncher.R
 package com.movtery.zalithlauncher.ui.fragment
 
 import android.os.Bundle
