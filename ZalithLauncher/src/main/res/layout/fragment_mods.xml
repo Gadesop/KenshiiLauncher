@@ -59,7 +59,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/file_nothing"
-                android:textColor="@color/primary_text"
+                    android:textColor="@color/primary_text"
+                    android:layout_marginStart="@dimen/_8sdp" />
+
+                <com.movtery.zalithlauncher.ui.view.AnimTextView
+                    android:id="@+id/go_download_text"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/kenify_button_bg"
                     android:textColor="@android:color/white"
