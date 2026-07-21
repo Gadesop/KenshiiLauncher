@@ -1,10 +1,10 @@
-import com.movtery.zalithlauncher.R
-package com.movtery.zalithlauncher.ui.fragment
+package com.movtery.zalithlauncher
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.movtery.zalithlauncher.R
 
 class KenifyStealthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
